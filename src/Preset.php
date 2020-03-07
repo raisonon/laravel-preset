@@ -3,8 +3,8 @@
 namespace harmonic\LaravelPreset;
 
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Console\PresetCommand;
-use Illuminate\Foundation\Console\Presets\Preset as BasePreset;
+use Laravel\Ui\UiCommand;
+use Laravel\Ui\Presets\Preset as BasePreset;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use sixlive\DotenvEditor\DotenvEditor;
@@ -13,7 +13,7 @@ use Symfony\Component\Process\Process;
 
 class Preset extends BasePreset
 {
-    /** @var PresetCommand */
+    /** @var UiCommand */
     protected $command;
 
     protected $options = [];
