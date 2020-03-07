@@ -24,7 +24,7 @@ $ composer require harmonic/laravel-preset --dev
 ## Usage
 
 ``` bash
-$ php artisan preset harmonic
+$ php artisan ui harmonic
 ```
 
 Once installed you will be prompted to remove the package (as it's no longer required). 
