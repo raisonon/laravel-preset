@@ -101,12 +101,8 @@ class Preset extends BasePreset
                 'repo' => 'https://github.com/inertiajs/inertia-laravel',
                 'version' => '^0.2.0',
             ];
-            $this->packages['harmonic/inertia-table:dev-bugfix/laravel7'] = [
-                'repo' => 'https://github.com/raisonon/inertia-table/',
-                'version' => '^1.0.7',
-            ];
+            
             $this->options['packages'][] = 'inertiajs/inertia-laravel';
-            $this->options['packages'][] = 'harmonic/inertia-table';
 
             self::$jsInclude = array_merge(self::$jsInclude, [
                 '@inertiajs/inertia' => '^0.1.0',
